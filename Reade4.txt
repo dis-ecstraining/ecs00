@@ -1,0 +1,25 @@
+■ 注意事項
+　・# は入力不要です。
+
+■ GitHubへのアクセス
+  □ GitHubへのアクセス
+    ● アクセス先：https://github.com/
+    ● Username: dis.ecstraining@gmail.com
+    ● Password: Zaq12wsx@dis
+
+
+■ GitHubにソース、設定ファイルをアップロードするコマンド
+  □ ローカルリポジトリの初期化
+ 　　# git init
+
+  □ リモートリポジトリの設定
+     # git remote add origin git@github.com:dis-ecstraining/ecsXX.git
+
+  □ リモートリポジトリの確認
+     # git remote -v 
+
+  □ ローカルリポジトリをリモートリポジトリに送付
+ 　　# git add .
+     # git commit -m "4th"
+     # git push -f origin master
+
