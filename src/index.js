@@ -5,11 +5,12 @@ app.listen(80);
 require('date-utils');
 let today = new Date()
 
-var str_text = new String('<h1>シナリオ #2 Develop テスト</h1><br><br>')
+var str_text = new String('<h1>シナリオ #2 master テスト</h1><br><br>')
 
 str_text = str_text + "テスト時の時刻は、"
 str_text = str_text + today.toFormat('YYYY年MM月DD日')+''
 str_text= str_text + '　15時06分です。'
+
 
 app.get('/',(req,res)=>{
     //res.send(str_text = today.toFormat('YYYY年MM月DD日\n'))
