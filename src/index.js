@@ -11,6 +11,7 @@ str_text = str_text + "テスト時の時刻は、"
 str_text = str_text + today.toFormat('YYYY年MM月DD日')+''
 str_text= str_text + '　16時15分です。'
 
+
 app.get('/',(req,res)=>{
     //res.send(str_text = today.toFormat('YYYY年MM月DD日\n'))
     res.send(str_text)
