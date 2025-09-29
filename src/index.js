@@ -5,7 +5,7 @@ app.listen(80);
 require('date-utils');
 let today = new Date()
 
-var str_text = new String('<h1>シナリオ #4 チェックテスト</h1><br><br>')
+var str_text = new String('<h1>シナリオ #1 チェックテスト</h1><br><br>')
 
 str_text = str_text + "テスト時の時刻は、"
 str_text = str_text + today.toFormat('YYYY年MM月DD日')+''
